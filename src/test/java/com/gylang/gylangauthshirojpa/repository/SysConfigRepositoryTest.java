@@ -26,7 +26,7 @@ public class SysConfigRepositoryTest extends GylangAuthShiroJpaApplicationTests 
 
     @Test
     public void testFindById(){
-        System.out.println(JsonUtils.obj2Json(sysConfigRepository.findById(null).orElse(null)));
+        System.out.println(JsonUtils.obj2Json(sysConfigRepository.findById((long) 1).orElse(null)));
 
     }
 

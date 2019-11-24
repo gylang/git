@@ -49,7 +49,6 @@ public class SysConfigServiceImpl implements SysConfigService {
     }
 
     @Override
-    @OperatorArgs
     public PageResult findPage( PageForm pageForm) {
 
         Criteria<SysConfig> criteria = new Criteria<>();

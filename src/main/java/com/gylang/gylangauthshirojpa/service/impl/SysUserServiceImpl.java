@@ -54,7 +54,6 @@ public class SysUserServiceImpl implements SysUserService {
     }
 
     @Override
-    @OperatorArgs
     public SysUser findById(Long id) {
         if (null == id) {
             return null;
@@ -63,14 +62,13 @@ public class SysUserServiceImpl implements SysUserService {
     }
 
     @Transactional
-    @OperatorArgs
     public SysUser save(SysUser sysUser) {
 
         return  sysUserRepository.save(sysUser);
     }
 
     @Override
-    @OperatorArgs
+
     public PageResult findPage(PageForm pageForm) {
 
         Criteria<SysUser> sysUserCriteria = new Criteria<>();
