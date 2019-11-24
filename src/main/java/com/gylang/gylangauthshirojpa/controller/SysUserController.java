@@ -49,7 +49,7 @@ public class SysUserController extends BaseController<SysUser> {
     }
 
 
-    public Result save(@RequestBody SysUser sysUser) {
+    public Result save(@RequestBody @Valid SysUser sysUser) {
 
 //        SysUser user = sysUserService.findById(sysUser.getId());
 //        if (null == user) {
@@ -121,17 +121,19 @@ public class SysUserController extends BaseController<SysUser> {
         List<Long> ids = t.stream()
                 .filter(sysConfig -> null != sysConfig.getId())
                 .map(SysUser::getId).collect(Collectors.toList());
+        List<SysUser> sysUserList = sysUserService.findByIdIn(ids);
         if (CollectionUtils.isEmpty(ids)) {
             return Result.failure(ResultEnum.ID_NULL);
         }
-        List<SysUser> sysUserList = sysUserService.findByIdIn(ids);
 
         // todo 按删除需求条件 添加符合的到待删除 List
         List<SysUser> deleteUser = sysUserList.stream()
                 .filter(sysUser -> !SysConstants.ADMIN.equals(sysUser.getName()))
                 .filter(sysUser -> SysConstants.ADMIN.equals(sysUser.getCreateBy()))
                 .collect(Collectors.toList());
-
+        if (CollectionUtils.isEmpty(deleteUser)) {
+            return Result.failure(ResultEnum.RESULT_EMPTY);
+        }
         System.out.println(JsonUtils.obj2Json(deleteUser));
         return Result.success(sysUserService.delete(deleteUser));
     }

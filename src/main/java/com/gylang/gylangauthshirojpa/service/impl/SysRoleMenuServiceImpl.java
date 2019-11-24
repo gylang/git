@@ -70,4 +70,15 @@ public class SysRoleMenuServiceImpl implements SysRoleMenuService {
     public List<SysRoleMenu> findByRoleId(Collection<Long> roleId) {
         return sysRoleMenuRepository.findByRoleIdIn(roleId);
     }
+
+    @Override
+    public void deleteByMenuIdIn(List<Long> menuId) {
+        sysRoleMenuRepository.deleteByMenuIdIn(menuId);
+    }
+
+    @Override
+    public void deleteByRoleIdIn(List<Long> roleId) {
+
+        sysRoleMenuRepository.deleteByRoleIdIn(roleId);
+    }
 }

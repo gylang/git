@@ -55,6 +55,7 @@ public class SysDeptServiceImpl implements SysDeptService {
 
         Criteria<SysDept> criteria = new Criteria<>();
         criteria.add(Restrictions.eq("id", pageForm.getParamValue("id"), true));
+        criteria.add(Restrictions.eq("id", pageForm.getParamValue("id"), true));
         criteria.add(Restrictions.like("name", pageForm.getParamValue("name"), true));
         criteria.add(Restrictions.like("remark", pageForm.getParamValue("remark"), true));
         Page<SysDept> sysDeptPage = sysDeptRepository.findAll(criteria, pageForm.getPage());
@@ -74,5 +75,34 @@ public class SysDeptServiceImpl implements SysDeptService {
 
         sysDeptRepository.deleteInBatch(t);
         return true;
+    }
+
+    @Override
+    public List<SysDept> findTree() {
+        List<SysDept> sysDepts = new ArrayList<>();
+        List<SysDept> depts = sysDeptRepository.findAll();
+        for (SysDept dept : depts) {
+            if (dept.getParentId() == null || dept.getParentId() == 0) {
+                dept.setLevel(0);
+                sysDepts.add(dept);
+            }
+        }
+        findChildren(sysDepts, depts);
+        return sysDepts;
+    }
+
+    private void findChildren(List<SysDept> sysDepts, List<SysDept> depts) {
+        for (SysDept sysDept : sysDepts) {
+            List<SysDept> children = new ArrayList<>();
+            for (SysDept dept : depts) {
+                if (sysDept.getId() != null && sysDept.getId().equals(dept.getParentId())) {
+                    dept.setParentName(dept.getName());
+                    dept.setLevel(sysDept.getLevel() + 1);
+                    children.add(dept);
+                }
+            }
+            sysDept.setChildren(children);
+            findChildren(children, depts);
+        }
     }
 }

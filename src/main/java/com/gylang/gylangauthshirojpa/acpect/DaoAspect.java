@@ -33,7 +33,7 @@ public class DaoAspect {
 
     }
 
-    @Pointcut("@annotation(com.gylang.gylangauthshirojpa.target.OperatorArgs)")
+    @Pointcut("execution(public * com.gylang.gylangauthshirojpa.controller.*.update*(..))")
     public void doUpdate() {
         System.out.println("修改方法参数");
     }

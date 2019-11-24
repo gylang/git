@@ -5,7 +5,9 @@ import com.gylang.gylangauthshirojpa.VO.Result;
 import com.gylang.gylangauthshirojpa.enums.LoginEnum;
 import com.gylang.gylangauthshirojpa.form.LoginForm;
 import com.gylang.gylangauthshirojpa.security.OnlineUserService;
+import com.gylang.gylangauthshirojpa.service.SysLogService;
 import com.gylang.gylangauthshirojpa.service.SysUserService;
+import com.gylang.gylangauthshirojpa.utils.IPUtils;
 import com.gylang.gylangauthshirojpa.utils.JsonUtils;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
@@ -14,6 +16,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import springfox.documentation.spring.web.json.Json;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 
 /**
@@ -29,9 +32,11 @@ public class SysLoginController {
     private SysUserService sysUserService;
     @Autowired
     private OnlineUserService onlineUserService;
+    @Autowired
+    private SysLogService logService;
 
     @PostMapping("/login")
-    public Result login(@RequestBody @Valid LoginForm loginForm) {
+    public Result login(@RequestBody @Valid LoginForm loginForm, HttpServletRequest request) {
         System.out.println("账号" + JsonUtils.obj2Json(loginForm));
         Subject subject = SecurityUtils.getSubject();
         UsernamePasswordToken usernamePasswordToken = new UsernamePasswordToken(loginForm.getUserName(), loginForm.getPassword());
@@ -45,6 +50,7 @@ public class SysLoginController {
             // todo 将当前登录用户保存到队列当中
             onlineUserService.putAndVerifyUserQueue(loginInfoDTO.getId(), sessionId);
             loginInfoDTO.setToken(sessionId);
+            logService.saveLoginLog(loginInfoDTO.getName(), IPUtils.getIpAddr(request), "login");
             return Result.success(loginInfoDTO);
         } else {
             return Result.failure(LoginEnum.LOGIN_ERROR);
@@ -52,7 +58,7 @@ public class SysLoginController {
     }
 
     @PostMapping("/logout")
-    public Result logout() {
+    public Result logout(HttpServletRequest request) {
 
         Subject subject = SecurityUtils.getSubject();
         String sessionId = subject.getSession().getId().toString();
@@ -62,7 +68,7 @@ public class SysLoginController {
             onlineUserService.removeSession(sessionId);
             return Result.failure(LoginEnum.LOGOUT_ERROR);
         }
-        long userId = loginInfoDTO.getId();
+        logService.saveLoginLog(loginInfoDTO.getName(), IPUtils.getIpAddr(request), "login");
         subject.logout();
         return Result.success("注销成功");
 

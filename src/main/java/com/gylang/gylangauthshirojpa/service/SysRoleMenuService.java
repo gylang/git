@@ -16,4 +16,8 @@ public interface SysRoleMenuService extends BaseService<SysRoleMenu> {
     List<SysRoleMenu> findByRoleId(Long roleId);
 
     List<SysRoleMenu> findByRoleId(Collection<Long> roleId);
+
+    void deleteByMenuIdIn(List<Long> menuId);
+
+    void deleteByRoleIdIn(List<Long> roleId);
 }

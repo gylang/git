@@ -19,6 +19,7 @@ public interface SysLogService extends BaseService<SysLog> {
     PageResult findSysLoginPage(PageForm pageForm);
 
     boolean deleteLoginLog(List<SysLoginLog> sysLoginLogList);
+    SysLoginLog saveLoginLog(String user, String ip, String status);
 
     List<SysLoginLog> findByLoginLogIdIn(List<Long> ids);
 }

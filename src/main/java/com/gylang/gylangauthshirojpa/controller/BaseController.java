@@ -16,14 +16,14 @@ import java.util.List;
 public abstract class BaseController<T> {
 
     @PostMapping("/save")
-    public abstract Result save( T t) ;
+    public abstract Result save(T t);
 
     @PostMapping("/update")
-   public abstract Result update( T t);
+    public abstract Result update(T t);
 
     @PostMapping("/delete")
-    public abstract Result delete( List<T> t);
+    public abstract Result delete(List<T> t);
 
     @PostMapping("/findPage")
-    public abstract Result findPage( PageForm pageForm);
+    public abstract Result findPage(PageForm pageForm);
 }

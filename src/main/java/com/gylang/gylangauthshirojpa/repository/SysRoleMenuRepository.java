@@ -17,4 +17,8 @@ public interface SysRoleMenuRepository extends JpaRepository<SysRoleMenu, Long>,
 
     List<SysRoleMenu> findByRoleId(Long roleId);
     List<SysRoleMenu> findByRoleIdIn(Collection<Long> roleId);
+
+    void deleteByMenuIdIn(List<Long> menuId);
+
+    void deleteByRoleIdIn(List<Long> menuId);
 }

@@ -64,9 +64,11 @@ public class SysMenuController extends BaseController<SysMenu> {
         // todo 按需求 判断删除条件
         String createBy = "admin";
         List<SysMenu> delete = menus.stream()
-                .filter(sysMenu -> !createBy.equals(sysMenu.getCreateBy()))
+                .filter(sysMenu -> createBy.equals(sysMenu.getCreateBy()))
                 .collect(Collectors.toList());
-
+        if (CollectionUtils.isEmpty(delete)) {
+            return Result.failure(ResultEnum.RESULT_EMPTY);
+        }
         return Result.auto(sysMenuService.delete(delete));
 
     }

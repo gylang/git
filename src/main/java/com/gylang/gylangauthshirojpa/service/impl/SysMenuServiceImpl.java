@@ -20,6 +20,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 
+import javax.transaction.Transactional;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -179,8 +180,13 @@ public class SysMenuServiceImpl implements SysMenuService {
     }
 
     @Override
+    @Transactional
     public boolean delete(List<SysMenu> t) {
 
+        List<Long> menuId = t.stream().map(SysMenu::getId).collect(Collectors.toList());
+        if (!CollectionUtils.isEmpty(menuId)) {
+            sysRoleMenuService.deleteByMenuIdIn(menuId);
+        }
         sysMenuRepository.deleteInBatch(t);
         return true;
     }

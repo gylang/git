@@ -14,6 +14,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -56,6 +57,14 @@ public class SysConfigServiceImpl implements SysConfigService {
         criteria.add(Restrictions.like("type", pageForm.getParamValue("type"), true));
         Page<SysConfig> sysConfigPage = sysConfigRepository.findAll(criteria, pageForm.getPage());
 
+        //过滤数据
+        Iterator<SysConfig> iterator = sysConfigPage.iterator();
+        while (iterator.hasNext()) {
+            SysConfig sysConfig = iterator.next();
+            sysConfig.setCreateBy(null);
+            sysConfig.setDelFlag(null);
+            sysConfig.setLastUpdateBy(null);
+        }
         return new PageResult<SysConfig>().setAndGet(sysConfigPage);
     }
 

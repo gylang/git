@@ -1,6 +1,7 @@
 package com.gylang.gylangauthshirojpa.service.impl;
 
 import com.gylang.gylangauthshirojpa.VO.PageResult;
+import com.gylang.gylangauthshirojpa.contant.SysConstants;
 import com.gylang.gylangauthshirojpa.domian.SysLog;
 import com.gylang.gylangauthshirojpa.domian.SysLoginLog;
 import com.gylang.gylangauthshirojpa.form.PageForm;
@@ -14,6 +15,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -62,6 +64,19 @@ public class SysLogServiceImpl implements SysLogService {
 
         sysLoginLogRepository.deleteInBatch(sysLoginLogList);
         return true;
+    }
+
+    @Override
+    public SysLoginLog saveLoginLog(String userName, String ip, String status) {
+
+        SysLoginLog sysLoginLog = new SysLoginLog();
+        sysLoginLog.setCreateBy(SysConstants.ADMIN);
+        sysLoginLog.setIp(ip);
+        sysLoginLog.setUserName(userName);
+        sysLoginLog.setStatus(status);
+        sysLoginLog.setCreateTime(new Date());
+
+        return sysLoginLogRepository.save(sysLoginLog);
     }
 
     @Override

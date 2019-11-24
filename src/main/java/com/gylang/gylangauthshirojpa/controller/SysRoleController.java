@@ -7,6 +7,7 @@ import com.gylang.gylangauthshirojpa.enums.ResultEnum;
 import com.gylang.gylangauthshirojpa.form.PageForm;
 import com.gylang.gylangauthshirojpa.service.SysRoleService;
 import com.gylang.gylangauthshirojpa.utils.CopyUtils;
+import com.gylang.gylangauthshirojpa.utils.JsonUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.CollectionUtils;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -33,13 +34,13 @@ public class SysRoleController extends BaseController<SysRole> {
 
     @Override
     public Result save(@RequestBody SysRole sysRole) {
-
+        System.out.println(JsonUtils.obj2Json(sysRole));
         return Result.auto(null != sysRoleService.save(sysRole));
     }
 
     @Override
     public Result update(@RequestBody SysRole sysRole) {
-
+        System.out.println(JsonUtils.obj2Json(sysRole));
         SysRole role = sysRoleService.findById(sysRole.getId());
         if (null == role) {
             return Result.failure(-1, "角色不存在");
@@ -52,7 +53,6 @@ public class SysRoleController extends BaseController<SysRole> {
     @Override
     public Result delete(@RequestBody List<SysRole> t) {
 
-        System.out.println(t);
         List<Long> roleIdList = t.stream()
                 .filter(sysConfig -> null != sysConfig.getId())
                 .map(SysRole::getId).collect(Collectors.toList());
@@ -64,7 +64,9 @@ public class SysRoleController extends BaseController<SysRole> {
         List<SysRole> delete = roleList.stream()
                 .filter(sysRole -> !SysConstants.ADMIN.equals(sysRole.getName()))
                 .collect(Collectors.toList());
-
+        if (CollectionUtils.isEmpty(delete)) {
+            return Result.failure(ResultEnum.RESULT_EMPTY);
+        }
         return Result.auto(sysRoleService.delete(delete));
     }
 

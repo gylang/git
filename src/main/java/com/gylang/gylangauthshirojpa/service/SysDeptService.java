@@ -12,4 +12,5 @@ import java.util.List;
 public interface SysDeptService extends BaseService<SysDept> {
 
     List<SysDept> findByIdIn(List<Long> ids);
+    List<SysDept> findTree();
 }

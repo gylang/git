@@ -3,6 +3,7 @@ package com.gylang.gylangauthshirojpa.utils;
 import com.gylang.gylangauthshirojpa.DTO.LoginInfoDTO;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.subject.Subject;
+import org.springframework.util.ObjectUtils;
 
 
 /**
@@ -17,8 +18,14 @@ public class LoginUtils {
     }
 
     public static LoginInfoDTO getLoginInfo() {
-
-        return (LoginInfoDTO) getSubject().getPrincipal();
+        Subject subject= getSubject();
+        if (null == subject) {
+            return null;
+        }
+        if (ObjectUtils.isEmpty(subject.getPrincipal())) {
+            return null;
+        }
+        return (LoginInfoDTO) subject.getPrincipal();
     }
 
     public static Long getUserId() {

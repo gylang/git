@@ -41,7 +41,7 @@ public class SysConfigController extends BaseController<SysConfig> {
 
         SysConfig config = sysConfigService.findById(sysConfig.getId());
         if (null == config) {
-            return Result.failure(-1, "配置信息");
+            return Result.failure(-1, "配置信息不存在");
         }
         List<String> ignore = Arrays.asList("createBy", "createTime");
         CopyUtils.notNullAndOtherCopy(sysConfig, config, ignore);
@@ -66,13 +66,16 @@ public class SysConfigController extends BaseController<SysConfig> {
         List<SysConfig> delete = config.stream()
                 .filter(sysConfig -> createBy.equals(sysConfig.getCreateBy()))
                 .collect(Collectors.toList());
-
+        if (CollectionUtils.isEmpty(delete)) {
+            return Result.failure(ResultEnum.RESULT_EMPTY);
+        }
         return Result.auto(sysConfigService.delete(delete));
 
     }
 
     @Override
     public Result findPage(@RequestBody @Valid PageForm pageForm) {
+
         return Result.success(sysConfigService.findPage(pageForm));
     }
 }

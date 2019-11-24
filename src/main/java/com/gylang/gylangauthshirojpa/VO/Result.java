@@ -57,4 +57,5 @@ public class Result<T> implements Serializable {
             return new Result<T>(-1, "失败");
         }
     }
+
 }

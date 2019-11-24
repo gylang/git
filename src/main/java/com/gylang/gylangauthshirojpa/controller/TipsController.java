@@ -15,14 +15,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("tick")
 public class TipsController {
 
-    @GetMapping("/not/right")
+    @RequestMapping("/not/right")
     public Result notRight() {
 
         return Result.failure(AuthEnum.NO_RIGHT);
     }
 
 
-    @GetMapping("/not/login")
+    @RequestMapping("/not/login")
     public Result notLogin() {
 
         return Result.failure(AuthEnum.NO_LOGIN);

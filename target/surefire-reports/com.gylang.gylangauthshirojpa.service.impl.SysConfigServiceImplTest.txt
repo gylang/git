@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.gylang.gylangauthshirojpa.service.impl.SysConfigServiceImplTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.411 s <<< FAILURE! - in com.gylang.gylangauthshirojpa.service.impl.SysConfigServiceImplTest
-findPage  Time elapsed: 0.023 s  <<< ERROR!
-org.apache.shiro.UnavailableSecurityManagerException: No SecurityManager accessible to the calling code, either bound to the org.apache.shiro.util.ThreadContext or as a vm static singleton.  This is an invalid application configuration.
-	at com.gylang.gylangauthshirojpa.service.impl.SysConfigServiceImplTest.findPage(SysConfigServiceImplTest.java:52)
-
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.997 s - in com.gylang.gylangauthshirojpa.service.impl.SysConfigServiceImplTest

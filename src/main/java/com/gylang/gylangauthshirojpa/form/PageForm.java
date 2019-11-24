@@ -2,6 +2,7 @@ package com.gylang.gylangauthshirojpa.form;
 
 import com.gylang.gylangauthshirojpa.VO.Param;
 import lombok.Data;
+import org.springframework.boot.context.properties.bind.DefaultValue;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 
@@ -22,6 +23,7 @@ public class PageForm {
      * 当前页码
      */
     @Min(value = 1, message = "页码不能小于1")
+
     private int pageNum = 1;
     /**
      * 每页数量

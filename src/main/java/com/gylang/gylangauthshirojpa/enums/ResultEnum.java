@@ -16,7 +16,7 @@ public enum  ResultEnum implements BaseEnum {
    PARAMS_TYPE_ERROR(12001, "参数格式错误"),
    USER_HAVE_REGISTER(12002, "用户名已经被注册"),
    ID_NULL(12003, "id为空"),
-   RESULT_EMPTY(12003, "待删除"),
+   RESULT_EMPTY(12003, "查询不到相关的数据"),
 
     ;
     private Integer code;

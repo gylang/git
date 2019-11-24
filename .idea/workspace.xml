@@ -2,8 +2,86 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8648cd01-d448-45a4-b984-8324b4231fc8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/acpect/SysLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/target/IdArgs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/utils/IPUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gylang-auth-shiro-jpa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gylang-auth-shiro-jpa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/VO/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/VO/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/acpect/DaoAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/acpect/DaoAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/config/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysConfigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysConfigController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysDeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysDeptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysDictController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysDictController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysLogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysLoginLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysLoginLogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysRoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/TipsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/TipsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/domian/SysConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/domian/SysConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/domian/SysDept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/domian/SysDept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/domian/SysDict.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/domian/SysDict.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/enums/ResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/enums/ResultEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/form/PageForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/form/PageForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/repository/SysRoleMenuRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/repository/SysRoleMenuRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/SysDeptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/SysDeptService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/SysLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/SysLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/SysRoleMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/SysRoleMenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysConfigServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysConfigServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysDeptServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysDeptServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysLogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysRoleMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysRoleMenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/utils/LoginUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/utils/LoginUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/acpect/DaoAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/acpect/DaoAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/config/ShiroConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/config/ShiroConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/controller/SysDeptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/controller/SysDeptController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/controller/SysLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/controller/SysLoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/controller/SysUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/controller/SysUserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/controller/TipsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/controller/TipsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/domian/SysConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/domian/SysConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/domian/SysDept.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/domian/SysDept.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/domian/SysDict.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/domian/SysDict.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/enums/ResultEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/enums/ResultEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/form/PageForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/form/PageForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/service/SysDeptService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/service/SysDeptService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/service/SysLogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/service/SysLogService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/service/impl/SysConfigServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/service/impl/SysConfigServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/service/impl/SysDeptServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/service/impl/SysDeptServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/service/impl/SysLogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/service/impl/SysLogServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/service/impl/SysUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/service/impl/SysUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/utils/LoginUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gylang/gylangauthshirojpa/utils/LoginUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gylang.gylangauthshirojpa.GylangAuthShiroJpaApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gylang.gylangauthshirojpa.GylangAuthShiroJpaApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gylang.gylangauthshirojpa.config.LoginUseraBeanConfigTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gylang.gylangauthshirojpa.config.LoginUseraBeanConfigTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gylang.gylangauthshirojpa.repository.SysConfigRepositoryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gylang.gylangauthshirojpa.repository.SysConfigRepositoryTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gylang.gylangauthshirojpa.service.impl.SysConfigServiceImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gylang.gylangauthshirojpa.service.impl.SysConfigServiceImplTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gylang.gylangauthshirojpa.service.impl.SysDeptServiceImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gylang.gylangauthshirojpa.service.impl.SysDeptServiceImplTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gylang.gylangauthshirojpa.service.impl.SysDictServiceImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gylang.gylangauthshirojpa.service.impl.SysDictServiceImplTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gylang.gylangauthshirojpa.service.impl.SysLogServiceImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gylang.gylangauthshirojpa.service.impl.SysLogServiceImplTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gylang.gylangauthshirojpa.service.impl.SysMenuServiceImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gylang.gylangauthshirojpa.service.impl.SysMenuServiceImplTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gylang.gylangauthshirojpa.service.impl.SysRoleMenuServiceImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gylang.gylangauthshirojpa.service.impl.SysRoleMenuServiceImplTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gylang.gylangauthshirojpa.service.impl.SysRoleServiceImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gylang.gylangauthshirojpa.service.impl.SysRoleServiceImplTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gylang.gylangauthshirojpa.service.impl.SysUserRoleServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gylang.gylangauthshirojpa.service.impl.SysUserRoleServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gylang.gylangauthshirojpa.service.impl.SysUserServiceImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gylang.gylangauthshirojpa.service.impl.SysUserServiceImplTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.gylang.gylangauthshirojpa.config.LoginUseraBeanConfigTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.gylang.gylangauthshirojpa.config.LoginUseraBeanConfigTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.gylang.gylangauthshirojpa.repository.SysConfigRepositoryTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.gylang.gylangauthshirojpa.repository.SysConfigRepositoryTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.gylang.gylangauthshirojpa.service.impl.SysConfigServiceImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.gylang.gylangauthshirojpa.service.impl.SysConfigServiceImplTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.gylang.gylangauthshirojpa.service.impl.SysDeptServiceImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.gylang.gylangauthshirojpa.service.impl.SysDeptServiceImplTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.gylang.gylangauthshirojpa.service.impl.SysDictServiceImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.gylang.gylangauthshirojpa.service.impl.SysDictServiceImplTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.gylang.gylangauthshirojpa.service.impl.SysLogServiceImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.gylang.gylangauthshirojpa.service.impl.SysLogServiceImplTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.gylang.gylangauthshirojpa.service.impl.SysMenuServiceImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.gylang.gylangauthshirojpa.service.impl.SysMenuServiceImplTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.gylang.gylangauthshirojpa.service.impl.SysRoleMenuServiceImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.gylang.gylangauthshirojpa.service.impl.SysRoleMenuServiceImplTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.gylang.gylangauthshirojpa.service.impl.SysRoleServiceImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.gylang.gylangauthshirojpa.service.impl.SysRoleServiceImplTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gylang/gylangauthshirojpa/repository/SysConfigRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/gylang/gylangauthshirojpa/repository/SysConfigRepositoryTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,91 +112,98 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/config/ShiroConfig.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysLoginLogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1908">
-              <caret line="79" column="44" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
+            <state relative-caret-position="231">
+              <caret line="52" column="61" selection-start-line="52" selection-start-column="61" selection-end-line="52" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/security/OnlineUserService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysMenuController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4500">
-              <caret line="135" selection-end-line="135" />
+            <state relative-caret-position="915">
+              <caret line="68" column="36" lean-forward="true" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysConfigController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysRoleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+            <state relative-caret-position="303">
+              <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/SysUserService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysMenuServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            <state relative-caret-position="227">
+              <caret line="186" column="13" selection-end-line="193" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysRoleMenuServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="81" column="53" selection-start-line="81" selection-start-column="53" selection-end-line="81" selection-end-column="53" />
+              <folding>
+                <element signature="e#2008#2009#0" expanded="true" />
+                <element signature="e#2042#2043#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysUserServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysUserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="67" column="5" lean-forward="true" selection-end-line="117" />
+            <state relative-caret-position="2052">
+              <caret line="135" column="9" lean-forward="true" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysRoleServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="50" column="77" selection-start-line="50" selection-start-column="77" selection-end-line="50" selection-end-column="77" />
+            <state relative-caret-position="180">
+              <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysLoginController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/repository/SysRoleMenuRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1980">
-              <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+            <state relative-caret-position="209">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/gylang/gylangauthshirojpa/service/impl/SysUserServiceImplTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/SysUserRoleService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
+            <state relative-caret-position="172">
+              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/config/SwaggerConfig.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/SysRoleMenuService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/security/SysUserRealm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="173">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -152,6 +237,7 @@
       <find>deleteAll</find>
       <find>IllegalArgumentException</find>
       <find>LoginException</find>
+      <find>subject.login</find>
     </findStrings>
     <replaceStrings>
       <replace>org.junit.Test</replace>
@@ -165,57 +251,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/domian/SysConfig.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gylang/gylangauthshirojpa/service/impl/SysConfigServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gylang/gylangauthshirojpa/service/impl/SysDeptServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/domian/SysDict.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysDictServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gylang/gylangauthshirojpa/service/impl/SysDictServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gylang/gylangauthshirojpa/service/impl/SysLogServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gylang/gylangauthshirojpa/service/impl/SysMenuServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/repository/SysRoleMenuRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysRoleMenuServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gylang/gylangauthshirojpa/service/impl/SysRoleMenuServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysRoleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gylang/gylangauthshirojpa/service/impl/SysRoleServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gylang/gylangauthshirojpa/service/impl/SysUserRoleServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysUserRoleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gylang/gylangauthshirojpa/service/impl/SysUserServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/BaseService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gylang/gylangauthshirojpa/service/impl/SysUserServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/domian/SysUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/SysLogService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/repository/SysLoginLogRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysLogServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/DTO/LoginInfoDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysLoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/BaseController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/security/SysUserRealm.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/ddd.yaml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-dev.yaml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/exception/GylangAuthExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/VO/Param.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/GylangAuthShiroJpaApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/acpect/AllAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/repository/SysConfigRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/security/OnlineUserService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gylang/gylangauthshirojpa/repository/SysConfigRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/utils/IPUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/utils/LoginUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/SysLogService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysLogServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysLoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/acpect/SysLogAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/TipsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/domian/SysConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/security/StatelessSessionManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/form/PageForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/target/IdArgs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/domian/SysDept.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysDeptServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/SysDeptService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/acpect/DaoAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/config/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysUserController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/enums/ResultEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/VO/Result.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysConfigServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysConfigController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysDeptController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/domian/SysDict.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysDictController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysLogController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysLoginLogController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysMenuController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysMenuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/SysRoleMenuService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysRoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/repository/SysRoleMenuRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysRoleMenuServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysRoleController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysUserController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/ddd.yaml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application-dev.yaml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/form/PageForm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/exception/GylangAuthExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/enums/ResultEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/VO/Param.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysDeptServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/GylangAuthShiroJpaApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysConfigServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/acpect/AllAspect.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/acpect/DaoAspect.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gylang/gylangauthshirojpa/repository/SysConfigRepositoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/repository/SysConfigRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/config/ShiroConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/security/OnlineUserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysConfigController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysUserServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -236,10 +322,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1939" />
-    <option name="height" value="1052" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1697" />
+    <option name="height" value="924" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -286,7 +372,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gylangauthshirojpa" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git" type="b2602c69:ProjectViewProjectNode" />
@@ -295,21 +381,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gylangauthshirojpa" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="git" type="b2602c69:ProjectViewProjectNode" />
               <item name="git" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -328,7 +407,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574563444553" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574600291611" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="com.gylang.gylangauthshirojpa.GylangAuthShiroJpaApplicationTests" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -346,6 +425,7 @@
       <recent name="com.gylang.gylangauthshirojpa" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gylang.gylangauthshirojpa.utils" />
       <recent name="com.gylang.gylangauthshirojpa.config" />
       <recent name="com.gylang.gylangauthshirojpa.target" />
     </key>
@@ -483,8 +563,16 @@
       <workItem from="1574348947486" duration="748000" />
       <workItem from="1574389005257" duration="7787000" />
       <workItem from="1574470569880" duration="18431000" />
-      <workItem from="1574563380487" duration="49000" />
+      <workItem from="1574563380487" duration="22473000" />
     </task>
+    <task id="LOCAL-00001" summary="修改测试">
+      <created>1574563646765</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574563646765</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -520,7 +608,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118024000" />
+    <option name="totallyTimeSpent" value="140448000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -545,7 +633,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32908162" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3805875" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994911" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -553,10 +641,10 @@
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49838188" weight="0.3298731" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50161815" side_tool="true" weight="0.32871974" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" sideWeight="0.49919093" weight="0.3298731" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49919093" weight="0.32950193" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49838188" weight="0.25892857" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49838188" weight="0.25798213" />
       <window_info anchor="bottom" id="TODO" order="14" sideWeight="0.49919093" weight="0.32908162" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -573,119 +661,247 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改测试" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysLogController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/SysConfigService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/form/LoginForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gylang/gylangauthshirojpa/service/impl/SysRoleServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/BaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/SysDeptService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="172">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/SysDictService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/SysRoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
+        <state relative-caret-position="172">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/SysMenuService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/SysLogService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
-          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysMenuServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysLogServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="176" column="25" selection-start-line="176" selection-start-column="25" selection-end-line="176" selection-end-column="25" />
-          <folding>
-            <element signature="e#5865#5866#0" expanded="true" />
-            <element signature="e#5915#5916#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="362">
+          <caret line="78" column="54" selection-start-line="78" selection-start-column="54" selection-end-line="78" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/zaxxer/HikariCP/3.4.1/HikariCP-3.4.1.jar!/com/zaxxer/hikari/HikariDataSource.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="-484">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/zaxxer/HikariCP/3.4.1/HikariCP-3.4.1-sources.jar!/com/zaxxer/hikari/HikariDataSource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysDictServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="209">
+          <caret line="54" column="49" lean-forward="true" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysDeptController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/acpect/SysLogAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="-36">
+          <caret line="39" column="65" lean-forward="true" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/config/CorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-79">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/TipsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/security/SysUserRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="76" column="53" selection-start-line="76" selection-start-column="53" selection-end-line="76" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/form/PageForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/target/OperatorArgs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/target/IdArgs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/domian/SysMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-895">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/SysDeptService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/domian/SysDept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-281">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/acpect/DaoAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1364">
+          <caret line="35" column="83" selection-start-line="35" selection-start-column="83" selection-end-line="35" selection-end-column="83" />
+          <folding>
+            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#1337#1338#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/config/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/security/StatelessSessionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="970">
+          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+          <folding>
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/domian/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/SysUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/enums/UserEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/enums/ResultEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/utils/CopyUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.1.RELEASE/spring-beans-5.2.1.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="358" column="85" selection-start-line="358" selection-start-column="77" selection-end-line="358" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysConfigServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysDeptServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-383">
+          <caret line="80" column="35" lean-forward="true" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="35" />
+          <folding>
+            <element signature="e#1565#1566#0" expanded="true" />
+            <element signature="e#1619#1620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/VO/Result.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="47" column="60" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="60" />
+        <state relative-caret-position="184">
+          <caret line="48" column="38" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
           <folding>
             <element signature="e#1077#1078#0" expanded="true" />
             <element signature="e#1124#1125#0" expanded="true" />
@@ -693,272 +909,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/exception/GylangAuthExceptionHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysConfigController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="71" column="90" selection-start-line="71" selection-start-column="90" selection-end-line="71" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1986#1987#0" expanded="true" />
-            <element signature="e#2042#2043#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/enums/ResultEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/form/PageForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+        <state relative-caret-position="216">
+          <caret line="33" column="46" lean-forward="true" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/VO/Param.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/domian/SysConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="4">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/utils/dySql/Criterion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="16" column="5" lean-forward="true" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/utils/dySql/Criteria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="19" column="21" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/utils/dySql/LogicalExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-727">
-          <caret line="17" column="19" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/utils/dySql/Restrictions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="20" column="29" selection-end-line="160" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/utils/dySql/SimpleExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1548">
-          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysRoleMenuServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="47" column="95" selection-start-line="47" selection-start-column="95" selection-end-line="47" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysRoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-720">
-          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysUserRoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysDictServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/repository/SysDeptRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="13" column="97" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysDeptServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#1619#1620#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/GylangAuthShiroJpaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/acpect/AllAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="917">
-          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/acpect/DaoAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-          <folding>
-            <element signature="e#1477#1478#0" expanded="true" />
-            <element signature="e#1521#1522#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/target/OperatorArgs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/80363fd4-1bbb-4f29-841f-b8b2be9237d3/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="36">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysConfigServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysDeptController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1277">
-          <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+        <state relative-caret-position="-32">
+          <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+          <folding>
+            <element signature="e#2608#2609#0" expanded="true" />
+            <element signature="e#2672#2673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/domian/SysDict.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/repository/SysConfigRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysDictController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gylang/gylangauthshirojpa/repository/SysConfigRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="42" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/config/OnlineUserConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/config/LoginUseraBeanConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/config/ShiroConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1908">
-          <caret line="79" column="44" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/security/OnlineUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4500">
-          <caret line="135" selection-end-line="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="50" column="77" selection-start-line="50" selection-start-column="77" selection-end-line="50" selection-end-column="77" />
+        <state relative-caret-position="149">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysLoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+        <state relative-caret-position="1094">
+          <caret line="60" column="20" lean-forward="true" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gylang/gylangauthshirojpa/service/impl/SysUserServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysLogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
+        <state relative-caret-position="843">
+          <caret line="48" column="29" lean-forward="true" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/config/SwaggerConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/BaseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="-213">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/security/SysUserRealm.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/SysUserRoleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="172">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysConfigController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysMenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="186" column="13" selection-end-line="193" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysRoleServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+          <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/SysUserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/SysRoleMenuService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        <state relative-caret-position="173">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysUserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/repository/SysRoleMenuRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="67" column="5" lean-forward="true" selection-end-line="117" />
+        <state relative-caret-position="209">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/service/impl/SysRoleMenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="81" column="53" selection-start-line="81" selection-start-column="53" selection-end-line="81" selection-end-column="53" />
+          <folding>
+            <element signature="e#2008#2009#0" expanded="true" />
+            <element signature="e#2042#2043#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysLoginLogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="52" column="61" selection-start-line="52" selection-start-column="61" selection-end-line="52" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysMenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="68" column="36" lean-forward="true" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysRoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gylang/gylangauthshirojpa/controller/SysUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2052">
+          <caret line="135" column="9" lean-forward="true" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

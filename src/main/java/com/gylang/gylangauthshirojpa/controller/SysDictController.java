@@ -7,6 +7,7 @@ import com.gylang.gylangauthshirojpa.enums.ResultEnum;
 import com.gylang.gylangauthshirojpa.form.PageForm;
 import com.gylang.gylangauthshirojpa.service.SysDictService;
 import com.gylang.gylangauthshirojpa.utils.CopyUtils;
+import com.gylang.gylangauthshirojpa.utils.JsonUtils;
 import com.gylang.gylangauthshirojpa.utils.LoginUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.CollectionUtils;
@@ -32,8 +33,8 @@ public class SysDictController extends BaseController<SysDict> {
     private SysDictService sysDictService;
 
     @Override
-    public Result save(@RequestBody SysDict sysDict) {
-
+    public Result save(@RequestBody @Valid SysDict sysDict) {
+        System.out.println(JsonUtils.obj2Json(sysDict));
 
         return Result.auto(null != sysDictService.save(sysDict));
     }
@@ -41,8 +42,14 @@ public class SysDictController extends BaseController<SysDict> {
     @Override
     public Result update(@RequestBody SysDict sysDict) {
 
-        SysDict dict = new SysDict();
-
+        if (null == sysDict.getId()) {
+            return Result.failure(ResultEnum.ID_NULL);
+        }
+        System.out.println(JsonUtils.obj2Json(sysDict));
+        SysDict dict = sysDictService.findById(sysDict.getId());
+        if (dict == null) {
+            return Result.failure(ResultEnum.RESULT_EMPTY);
+        }
         List<String> ignore = Arrays.asList("createBy");
         CopyUtils.notNullAndOtherCopy(sysDict, dict, ignore);
 
@@ -63,8 +70,12 @@ public class SysDictController extends BaseController<SysDict> {
         List<SysDict> delete = dicts.stream()
                 .filter(sysDict -> loginInfoDTO.getName().equals(sysDict.getCreateBy()))
                 .collect(Collectors.toList());
+        if (CollectionUtils.isEmpty(delete)) {
+            return Result.failure(ResultEnum.RESULT_EMPTY);
+        }
         return Result.auto(sysDictService.delete(delete));
     }
+
 
     @Override
     public Result findPage(@RequestBody @Valid PageForm pageForm) {
