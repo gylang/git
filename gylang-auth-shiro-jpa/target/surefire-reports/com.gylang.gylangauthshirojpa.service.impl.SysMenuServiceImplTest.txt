@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.gylang.gylangauthshirojpa.service.impl.SysMenuServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.3 s <<< FAILURE! - in com.gylang.gylangauthshirojpa.service.impl.SysMenuServiceImplTest
+findTree  Time elapsed: 0.188 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.gylang.gylangauthshirojpa.service.impl.SysMenuServiceImplTest.findTree(SysMenuServiceImplTest.java:36)
+
